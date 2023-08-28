@@ -1,4 +1,5 @@
-<img src="logo.png" style="width: 50%; margin-bottom: -20px; margin-top: 20px;"></img>
+<p></p> <!-- padding and margin does not work in GitHub -->
+<img src="logo.png" style="width: 50%;"></img>
 <hr></hr>
 This is the simple script, that let you backup your favorite wiki.
 
