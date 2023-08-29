@@ -3,7 +3,7 @@
 function download_pagelist()
 {
     $json = file_get_contents(WIKILINK . "/api.php?action=query" .
-        "&list=allpages&format=json&aplimit=500");
+        "&list=allpages&format=json&aplimit=max");
     $response = json_decode($json, true);
     // Getting response from server.
 
